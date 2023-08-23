@@ -1,0 +1,13 @@
+1 Create db test 
+
+2 CREATE TABLE todo (
+  id SERIAL PRIMARY KEY,
+  title VARCHAR(255) NOT NULL,
+  description TEXT,
+  completed BOOLEAN DEFAULT false,
+  created_at TIMESTAMP DEFAULT current_timestamp,
+  updated_at TIMESTAMP DEFAULT current_timestamp
+);
+
+3 NPM INSTALL
+4 npm run dev
